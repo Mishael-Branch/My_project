@@ -1,0 +1,11 @@
+#include <iostream>
+#include <fstream>
+#include "users.txt"
+
+int main() {
+    char tmp[100];
+    ofstream filein("users.txt");
+    while(filein.getline(tmp)) {
+        std::cout << getline << std::endl;
+    }
+}
